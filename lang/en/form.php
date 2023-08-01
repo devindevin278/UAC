@@ -1,10 +1,11 @@
-<?php
+    <?php
 
-return [
-    'name' => 'Name',
-    'gender' => 'Gender',
-    'photo' => 'Photo',
-    'password' => 'password'
-];
+    return [
+        'name' => 'Name',
+        'gender' => 'Gender',
+        'photo' => 'Photo',
+        'password' => 'password'
+    ];
 
-?>
+    ?>
+P

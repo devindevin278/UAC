@@ -9,13 +9,13 @@ use Illuminate\Http\Request;
 class AvatarController extends Controller
 {
     //
-    // public function index() {
-    //     $avatars = Avatar::all();
+    public function index() {
+        $avatars = Avatar::all();
 
-    //     return view('store', ([
-    //         'avatars' => $avatars
-    //     ]);
-    // }
+        return view('store', [
+            'avatars' => $avatars
+        ]);
+    }
 
     public function buyavatar(Request $request) {
         $user = User::find(auth()->user()->id);
